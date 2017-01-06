@@ -1,0 +1,103 @@
+a {
+  color: rgb(201, 184, 136);
+  font-weight: bolder;
+}
+
+a:hover {
+  color: white;
+}
+
+a:visited {
+  color: gray;
+}
+
+.thicker {
+  font-weight: bolder;
+}
+
+.title {
+  color: white;
+  font-size: 4em;
+  text-shadow: 1px 1px 0px black;
+  border-style: double;
+  border-width: 3px;
+  border-color: white;
+  border-radius: 5px;
+}
+
+.centered {
+  text-align: center;
+}
+
+.right {
+  text-align: right;
+}
+
+.white-text {
+  color: white;
+}
+
+.list-area {
+  background-color: rgba(222, 222, 222, 0.8);
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.btn {
+  border-style: none;
+  border-radius: 5px;
+  min-width: 72px;
+  min-height: 33px;
+}
+
+.btn:hover {
+  border-style: solid;
+  border-color: white;
+  border-width: 1px;
+}
+.add-recipe-btn {
+  color: white;
+  background-color: #2D7305;
+}
+
+.add-recipe-btn:hover {
+  color: black;
+  background-color: #4abd08;
+}
+
+.add-recipe-btn:active {
+  color: white;
+  background-color: #569a0a;
+}
+
+.recipe-details {
+  background-color: rgba(222, 222, 222, 0.8);
+  border-radius: 5px;
+  padding: 0px 10px 5px 10px;
+}
+
+.delete-recipe-btn {
+  color: white;
+  background-color: #b13722;
+}
+.delete-recipe-btn:hover {
+  color: black;
+  background-color: #e96850
+}
+.delete-recipe-btn:active {
+  color: white;
+  background-color: #b13722;
+}
+
+.save-recipe-btn {
+  color: white;
+  background-color: #2c93de;
+}
+.save-recipe-btn:hover {
+  color: black;
+  background-color: #74b2e0;
+}
+.save-recipe-btn:active {
+  color: white;
+  background-color: #2c93de;
+}

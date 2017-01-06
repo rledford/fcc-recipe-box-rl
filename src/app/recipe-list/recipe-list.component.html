@@ -1,0 +1,5 @@
+<div *ngFor='let recipe of recipes'>
+  <div class='list-item' [ngClass]="{'selected-list-item': selectedRecipe === recipe}" (click)='onClickRecipe(recipe)'>
+    <app-recipe [recipe]='recipe'></app-recipe>
+  <div>
+</div>

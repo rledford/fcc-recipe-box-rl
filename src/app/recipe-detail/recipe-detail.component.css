@@ -1,0 +1,119 @@
+label {
+  font-weight: bold;
+}
+
+.recipe-name {
+  color: white;
+  font-size: 2em;
+  font-weight: bold;
+  border-style: groove;
+  border-color: black;
+  border-width: 2px;
+  border-radius: 5px; background-color: rgba(61, 74, 64, 0.7);
+}
+
+.centered {
+  text-align: center;
+}
+
+.detail-area {
+  padding: 5px;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.8)
+}
+
+.detail-title {
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: underline;
+  margin-bottom: 5px;
+}
+
+.instruction-p {
+  margin-top: 10px;
+  text-indent: 12px;
+}
+
+.content {
+  padding-top: 5px;
+}
+
+.text-edit {
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 5px;
+  color: white;
+  background-color: rgba(61, 74, 64, 0.7);
+}
+
+.name-text-edit {
+  width: 100%;
+  font-size: 2em;
+  text-align: center;
+}
+
+.ingredients-text-edit {
+  width: 100%;
+  min-height: 5em;
+  font-size: 12px;
+}
+
+.instructions-text-edit {
+  width: 100%;
+  min-height: 7em;
+  font-size: 12px;
+}
+
+.btn {
+  border-style: none;
+  border-radius: 5px;
+  min-width: 72px;
+  min-height: 33px;
+}
+
+.btn:hover {
+  border-style: solid;
+  border-color: white;
+  border-width: 1px;
+}
+
+.edit-recipe-btn {
+  color: white;
+  background-color: #3F342E;
+}
+.edit-recipe-btn:hover {
+  color: black;
+  background-color: #ad9181;
+}
+.edit-recipe-btn:active {
+  color: white;
+  background-color: #3F342E;
+}
+
+.red-recipe-btn {
+  color: white;
+  background-color: #de3618;
+}
+.red-recipe-btn:hover {
+  color: black;
+  background-color: #de4f35;
+}
+.red-recipe-btn:active {
+  color: white;
+  background-color: #de3618;
+}
+
+.save-recipe-btn {
+  color: white;
+  background-color: #3D4A40;
+}
+.save-recipe-btn:hover {
+  color: black;
+  background-color: #8B989D;
+}
+.save-recipe-btn:active {
+  color: white;
+  background-color: #3D4A40;
+}

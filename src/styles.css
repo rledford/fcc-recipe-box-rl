@@ -1,1 +1,8 @@
 /* You can add global styles to this file, and also import other style files */
+.app-body {
+  background-color: #c6c6c6;
+  background-image: url('recipe-bg.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}

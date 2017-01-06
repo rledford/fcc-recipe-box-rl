@@ -1,3 +1,36 @@
-<h1>
-  {{title}}
-</h1>
+<div class='container_12'>
+  <div class='grid_12'>
+    <h1 class='title centered'>{{title}}</h1>
+    <div class='centered'>
+      <button [style.visibility]="editSelectedRecipe ? 'hidden' : 'visible'" class='btn add-recipe-btn' (click)='addRecipe()'>Add Recipe</button>
+    </div>
+    <hr>
+  </div>
+  <div class='clear'></div>
+  <div *ngIf='recipes !== null && recipes.length > 0'>
+    <div class='grid_4'>
+      <div class='list-area'>
+        <app-recipe-list (recipeClicked)='onSelectRecipe($event)' [recipes]='recipes' [selectedRecipe]='selectedRecipe'></app-recipe-list>
+      </div>
+    </div>
+    <div class='grid_8'>
+      <div *ngIf='selectedRecipe'>
+        <div class='clear'></div>
+        <div class='recipe-details'>
+          <app-recipe-detail
+          (saveChangesRequest)='onSaveSelectedRecipeChanges($event)'
+          (editRequest)='onEditSelectedRecipe()'
+          (deleteRequest)='onDeleteSelectedRecipe()' (cancelEditRequest)='onCancelEditRequest()' [edit]='editSelectedRecipe' [recipe]='selectedRecipe'></app-recipe-detail>
+        </div>
+      </div>
+    </div>
+    <div class='clear'></div>
+  </div>
+  <div class='grid_12 centered white-text thicker'>
+    A Free Code Camp Project
+  </div>
+  <div class='centered white-text thicker'>
+    <a href='https://freecodecamp.com/rledford' target='_blank'> Ryan Ledford</a>
+    <div class='bolder'>2017<div>
+  </div>
+</div>
